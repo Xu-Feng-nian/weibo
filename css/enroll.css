@@ -1,0 +1,146 @@
+nav {
+  width: 100%;
+  height: 100%;
+  background: url(../img/reg_repeat_bg.png) repeat-x #bee1f5;
+}
+nav .logo {
+  margin: 10px auto;
+  width: 900px;
+  height: 184px;
+  text-align: center;
+  background: url(../img/bg_reg_wave.png) no-repeat center bottom;
+}
+nav .center {
+  margin: 0px auto;
+  width: 900px;
+  height: 534px;
+  background-color: #FFF;
+}
+nav .center .header {
+  width: 900px;
+  height: 82px;
+  margin: 30px 0px;
+}
+nav .center .header a {
+  font-size: 22px;
+  color: #333;
+  line-height: 82px;
+  font-family: "Microsoft Yahei";
+}
+nav .center .header a:nth-child(1) {
+  margin-left: 30px;
+}
+nav .center .header span {
+  font-size: 12px;
+  color: #999;
+  margin: 0px 10px;
+}
+nav .center .bod {
+  width: 900px;
+  height: 452px;
+}
+nav .center .bod .bod-left {
+  float: left;
+  margin-left: 80px;
+  width: 600px;
+  height: 423px;
+}
+nav .center .bod .bod-left .phone {
+  margin-top: 60px;
+  margin-left: 140px;
+  width: 310px;
+  height: 34px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  background-color: #FFF;
+}
+nav .center .bod .bod-left .phone span {
+  float: left;
+  width: 34px;
+  height: 34px;
+  background-image: url(../img/sprite_login.png);
+  background-position: 11px -91px;
+  background-repeat: no-repeat;
+}
+nav .center .bod .bod-left .phone input {
+  width: 220px;
+  height: 34px;
+  float: left;
+}
+nav .center .bod .bod-left .phone i {
+  width: 50px;
+  height: 34px;
+  float: right;
+  font-size: 14px;
+  color: pink;
+  line-height: 34px;
+}
+nav .center .bod .bod-left .password {
+  margin-top: 20px;
+  margin-left: 140px;
+  width: 310px;
+  height: 34px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  background-color: #FFF;
+}
+nav .center .bod .bod-left .password span {
+  float: left;
+  width: 34px;
+  height: 34px;
+  background-image: url(../img/sprite_login.png);
+  background-position: -39px -91px;
+  background-repeat: no-repeat;
+}
+nav .center .bod .bod-left .password input {
+  width: 220px;
+  height: 34px;
+  float: left;
+}
+nav .center .bod .bod-left .password i {
+  width: 50px;
+  height: 34px;
+  float: right;
+  font-size: 14px;
+  color: pink;
+  line-height: 34px;
+}
+nav .center .bod .bod-left .verify {
+  margin-top: 20px;
+  margin-left: 140px;
+  width: 310px;
+  height: 34px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  background-color: #FFF;
+}
+nav .center .bod .bod-left .verify input {
+  width: 250px;
+  height: 34px;
+}
+nav .center .bod .bod-left .btn {
+  margin-top: 20px;
+  margin-left: 140px;
+}
+nav .center .bod .bod-left .btn button {
+  font-size: 12px;
+  color: #333;
+}
+nav .center .bod .bod-left .new {
+  width: 270px;
+  height: 34px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  background-color: #FFA00A;
+  text-align: center;
+  line-height: 34px;
+  margin-top: 20px;
+  margin-left: 140px;
+}
+nav .center .bod .bod-right {
+  float: right;
+  margin-right: 10px;
+  width: 210px;
+  height: 257px;
+  background-color: pink;
+}

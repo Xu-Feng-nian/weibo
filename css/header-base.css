@@ -1,0 +1,126 @@
+body {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, #c9d6ff, #c9d6ff, #e2e2e2, #c9d6ff, #e2e2e2);
+}
+nav {
+  width: 100%;
+  height: 48px;
+  border-top: 2px solid #fa7d3c;
+  box-shadow: 0 0 1px 0px rgba(0, 0, 0, 0.15);
+}
+nav .nav {
+  width: 1190px;
+  height: 48px;
+  margin: 0 auto;
+}
+nav .nav .nav-left {
+  width: 610px;
+  height: 48px;
+  float: left;
+}
+nav .nav .nav-left .nav-logo {
+  width: 80px;
+  height: 48px;
+  float: left;
+  margin-top: 8px;
+}
+nav .nav .nav-left .nav-input {
+  float: left;
+  width: 450px;
+  height: 30px;
+  margin-left: 30px;
+  margin-top: 8px;
+  border: 1px solid #ccc;
+  background-color: white;
+  position: absolute;
+  z-index: 2;
+}
+nav .nav .nav-left .nav-input input {
+  width: 410px;
+  height: 28px;
+}
+nav .nav .nav-left .nav-input span {
+  float: right;
+  margin-top: -2px;
+  font-size: 30px;
+}
+nav .nav .nav-left .nav-input span:hover {
+  color: #EB7350;
+  cursor: pointer;
+}
+nav .nav .nav-left .nav-input #search {
+  margin-top: 1px;
+  margin-left: -1px;
+  width: 450px;
+  height: 350px;
+  border: 1px solid #ccc;
+  display: none;
+}
+nav .nav .nav-left .nav-input #search li {
+  width: 450px;
+  height: 20px;
+  float: left;
+  margin: 5px 0px;
+}
+nav .nav .nav-left .nav-input #search li span {
+  float: left;
+  font-size: 14px;
+}
+nav .nav .nav-left .nav-input #search li .phb {
+  color: #EB7350;
+}
+nav .nav .nav-right {
+  width: 457px;
+  height: 48px;
+  margin-left: 120px;
+  float: right;
+}
+nav .nav .nav-right ul li {
+  float: left;
+  margin-left: 20px;
+  text-align: center;
+  line-height: 48px;
+}
+nav .nav .nav-right ul li a {
+  font-size: 17px;
+  color: #333;
+}
+nav .nav .nav-right ul li a:hover {
+  color: #EB7350;
+}
+nav .nav .nav-right ul li #topic {
+  margin-left: 1px;
+  width: 60px;
+  height: 35px;
+  display: none;
+  position: absolute;
+  z-index: 2;
+}
+nav .nav .nav-right ul li #topic div {
+  width: 28px;
+  height: 28px;
+  float: left;
+  line-height: 35px;
+  font-size: 15;
+  color: black;
+}
+nav .nav .nav-right ul li #topic div img {
+  width: 28px;
+  height: 28px;
+}
+nav .nav .nav-right ul li #topic #zhou {
+  border-right: 1px solid black;
+}
+nav .nav .nav-right li {
+  color: #ccc;
+}
+nav .nav .nav-right li:nth-child(4) {
+  width: 62px;
+}
+nav .nav .nav-right li:nth-child(5) {
+  margin-right: -10px;
+}
+nav .nav .nav-right li:last-child {
+  margin-left: 10px;
+}

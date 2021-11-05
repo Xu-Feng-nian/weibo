@@ -1,0 +1,59 @@
+.swiper-container{
+    display: inline-block;
+    width: 660px;
+    height: 300px;
+    background:linear-gradient(to left ,#ada996,#f2f2f2,#dbdbdb,#eaeaea);
+  }  
+  .swiper-pagination{
+    background-color: rgba(168, 164, 164, 0);
+  }
+  .swiper-container .swiper-pagination-bullet,.swiper-container .swiper-pagination-bullet-active{
+  /*.swiper-pagination-bullet-active表示动作状态下的点*/
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgba(168, 164, 164, 0);
+  }
+  .swiper-container .swiper-pagination-bullet:hover,.swiper-container .swiper-pagination-bullet-active{
+  /*.swiper-pagination-bullet-active表示动作状态下的点*/
+  background-color: rgba(255, 255, 255, 0.61);
+  border: 2px solid rgba(255, 255, 255, 102);
+  }
+  .slide{
+    float: left;
+    width: 512px;
+    height: 288px;
+  }
+  .slide div{
+    margin-top: 10px;
+    float: left;
+    width: 512px;
+    height: 65px;
+    background:linear-gradient(to bottom,#f0f5f9,#c9d6df,#52616b,#1e2022);
+  }
+  .slide div h3{
+    margin-top: 15px;
+    margin-left: 5px;
+    font-size: 18px;
+    color: #fff;
+  }
+  .slide div span{
+    margin-left: 5px;
+    font-size: 12px;
+    color: #fff;
+  }
+  #img1{
+    float: left;
+    width: 512px;
+    height: 225px;
+  }
+  #img2{
+    float: right;
+    width: 140px;
+    height: 145px;
+  }
+  #img3{
+    margin-top:10px;
+    float: right;
+    width: 140px;
+    height: 145px;
+  }
+  
